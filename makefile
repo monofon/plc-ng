@@ -9,3 +9,5 @@ plc-ng-image:
 	docker tag plc-ng monofon/plc-ng
 	docker push monofon/plc-ng
 
+.PHONY: plc-ng-image run-image
+
